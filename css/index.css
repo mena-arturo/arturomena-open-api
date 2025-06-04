@@ -1,0 +1,106 @@
+/*  
+    =============================================================================================
+    DESIGN:
+    MOBILE FIRST
+    =============================================================================================
+*/
+
+/*--------------------------------- HEADER SECTION --------------------------------------------*/
+
+header{
+    /*border: solid 2px white;*/ /*FOR DEBUGGING PURPOSES ONLY*/
+    position: sticky;
+    top: 0;
+    background-color: rgb(7, 43, 71);
+    padding: .5em;
+    margin: 0;
+}
+
+.title{
+    /*border: solid 2px white; *//*FOR DEBUGGING PURPOSES ONLY*/
+    margin: 0 1em;
+    text-align: center;
+}
+
+.title h1{
+    padding: 0;
+    margin: 0;
+    font-family: "Lato", 'Courier New', Courier, monospace; /* Lato* IS A CUSTOM FONT-FAMILY FROM GOOGLE FONTS*/
+    color: white;
+}
+
+nav {
+    /*border: solid 2px white;*/ /*FOR DEBUGGING PURPOSES ONLY*/
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.navlink {
+    /*border: solid 2px white;*/ /*FOR DEBUGGING PURPOSES ONLY*/
+    color: white;
+    text-decoration: underline;
+    font-size: 1rem;
+    display: block;
+    padding: 0.1em;
+    margin-bottom: 0.5em;
+}
+
+.navlink:hover,
+.navlink:focus {
+    color:black;
+    background-color: aliceblue;
+}
+
+/*--------------------------------- BODY SECTION ----------------------------------------------*/
+
+body {
+    margin: 0px;
+    background: rgb(12, 76, 125); 
+    color: white; 
+    font-family: "Lato", 'Courier New', Courier, monospace; /* Lato* IS A CUSTOM FONT-FAMILY FROM GOOGLE FONTS*/
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 2.1rem;
+    font-weight: 400;
+}
+
+/*--------------------------------- BODY-> MAIN SECTION ---------------------------------------*/
+
+main{
+    /*border: solid 2px white;*/ /*FOR DEBUGGING PURPOSES ONLY*/
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/*--------------------------------- BODY-> MAIN-> WEATHER SECTION -----------------------------*/
+
+a{
+    color: white;
+}
+
+/*--------------------------------- BODY-> FOOTER SECTION -------------------------------------*/
+
+footer{
+    position: sticky;
+    bottom: 0;
+    padding: 1.5em;
+    background-color: rgb(7, 43, 71);
+    text-align: center;
+}
+
+footer p,
+footer h3{
+    margin: 0;
+}
+
+/*--------------------------------- MEDIA QUERIES SECTION -------------------------------------*/
+
+/*----------------------TABLET-SIZE DEVICES-----------------------------*/ 
+/*--------MEDIA QUERY 1: AT LEAST 2 CHANGES ON 4 ELEMENTS---------------*/
+
+
+/*----------------------LAPTOP-SIZE DEVICES AND UP----------------------*/ 
+/*--------MEDIA QUERY 2: AT LEAST 2 CHANGES ON 3 ELEMENTS---------------*/
+
