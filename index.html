@@ -12,18 +12,152 @@
 <body>
     <header>
             <div class="title">
-                <h1>Arturo Mena</h1>
-                
+                <h1>The Weather</h1>
             </div>
-            <nav>
-                <a class="navlink" href="#About">About</a>
+            <nav class="citiesMenu">
+                <a class="navlink" id="city0" href="#boston">Boston</a>
+                <a class="navlink" id="city1" href="#newYork">New York</a>
+                <a class="navlink" id="city2" href="#sanFrancisco">San Francisco</a>
+                <a class="navlink" id="city3" href="#losAngeles">Los Angeles</a>
+                <a class="navlink" id="city4" href="#newJersey">New Jersey</a>
+                <a class="navlink" id="city5" href="#washingtonDc">Washington DC</a>
+                <a class="navlink" id="city6" href="#chicago">Chicago</a>
             </nav>
     </header>
+
     <main>
-        <section id="weather">
-            <h2>Weather data</h2>
-            <p class="data">Source: <a href="https://open-meteo.com/">Open-Meteo</a></p>
-        </section>
+        <section class="mainCard">
+
+            <section class="mainCardleft">
+                <h2 id="cityName">City Name</h2>
+                <p id="dateTime">Date time</p>
+                <img id="cityWmoCode" src="img/0.png" alt="wheater icon" width="150" height="150">
+            </section><!--mainCardLeft-->
+
+            <section class="mainCardRight">
+                <h2 id="currentTemp">Current Temp</h2>
+                <section class="mainCardGrid">
+                    <p id="minTemp">Min:</p>
+                    <p id="minTempVal">Temp Value</p>
+                    <p id="maxTemp">Max:</p>
+                    <p id="maxTempVal">Temp Value</p>
+                    <p id="feelsTemp">Feels like:</p>
+                    <p id="feelsTempVal">Temp Value</p>
+                </section><!--mainCardGrid-->
+                <form id="getWeatherConditions">
+                    <button id="getWeatherConditionsBtn" type="submit">Show weather conditions</button>
+                </form>
+
+            </section><!--mainCardRight-->
+            
+        </section> <!--mainCard-->
+
+        <section id="weatherConditions">
+            <p id="weatherCode">Weather</p>
+            <p id="uvIndex">UV Index</p>
+            <p id="humidity">Humidity</p>
+            <p id="rainProbability">Chance of rain</p>
+            <p id="weatherCodeValue">Weather Value</p>
+            <p id="uvIndexValue">UV Index Value</p>
+            <p id="humidityValue">Humidity Value</p>
+            <p id="rainProbabilityValue">Probability Value</p>
+        </section> <!--weatherConditions-->
+
+        <section class="forecast">
+            
+            <section class="forecastCard">
+                <section class="forecastCardImg">
+                    <p class="forecastDate">Date</p>
+                    <img class="forecastImage" src="img/0.png" alt="wheater icon" width="100" height="100">
+                </section><!--forecastCardImg-->
+                <section class="forecastCardInfo">
+                        <p class="forecastMinTemp">Min:</p>
+                        <p class="forecastMinTempVal">Temp Value</p>
+                        <p class="forecastMaxTemp">Max:</p>
+                        <p class="forecastMaxTempVal">Temp Value</p>
+                </section> <!--forecastCardInfo-->
+            </section> <!--forecastCard-->
+                
+            <section class="forecastCard">
+                <section class="forecastCardImg">
+                    <p class="forecastDate">Date</p>
+                    <img class="forecastImage" src="img/0.png" alt="wheater icon" width="100" height="100">
+                </section><!--forecastCardImg-->
+                <section class="forecastCardInfo">
+                        <p class="forecastMinTemp">Min:</p>
+                        <p class="forecastMinTempVal">Temp Value</p>
+                        <p class="forecastMaxTemp">Max:</p>
+                        <p class="forecastMaxTempVal">Temp Value</p>
+                </section> <!--forecastCardInfo-->
+            </section> <!--forecastCard-->
+
+                        <section class="forecastCard">
+                <section class="forecastCardImg">
+                    <p class="forecastDate">Date</p>
+                    <img class="forecastImage" src="img/0.png" alt="wheater icon" width="100" height="100">
+                </section><!--forecastCardImg-->
+                <section class="forecastCardInfo">
+                        <p class="forecastMinTemp">Min:</p>
+                        <p class="forecastMinTempVal">Temp Value</p>
+                        <p class="forecastMaxTemp">Max:</p>
+                        <p class="forecastMaxTempVal">Temp Value</p>
+                </section> <!--forecastCardInfo-->
+            </section> <!--forecastCard-->
+
+            <section class="forecastCard">
+                <section class="forecastCardImg">
+                    <p class="forecastDate">Date</p>
+                    <img class="forecastImage" src="img/0.png" alt="wheater icon" width="100" height="100">
+                </section><!--forecastCardImg-->
+                <section class="forecastCardInfo">
+                        <p class="forecastMinTemp">Min:</p>
+                        <p class="forecastMinTempVal">Temp Value</p>
+                        <p class="forecastMaxTemp">Max:</p>
+                        <p class="forecastMaxTempVal">Temp Value</p>
+                </section> <!--forecastCardInfo-->
+            </section> <!--forecastCard-->            
+
+            <section class="forecastCard">
+                <section class="forecastCardImg">
+                    <p class="forecastDate">Date</p>
+                    <img class="forecastImage" src="img/0.png" alt="wheater icon" width="100" height="100">
+                </section><!--forecastCardImg-->
+                <section class="forecastCardInfo">
+                        <p class="forecastMinTemp">Min:</p>
+                        <p class="forecastMinTempVal">Temp Value</p>
+                        <p class="forecastMaxTemp">Max:</p>
+                        <p class="forecastMaxTempVal">Temp Value</p>
+                </section> <!--forecastCardInfo-->
+            </section> <!--forecastCard-->
+
+            <section class="forecastCard">
+                <section class="forecastCardImg">
+                    <p class="forecastDate">Date</p>
+                    <img class="forecastImage" src="img/0.png" alt="wheater icon" width="100" height="100">
+                </section><!--forecastCardImg-->
+                <section class="forecastCardInfo">
+                        <p class="forecastMinTemp">Min:</p>
+                        <p class="forecastMinTempVal">Temp Value</p>
+                        <p class="forecastMaxTemp">Max:</p>
+                        <p class="forecastMaxTempVal">Temp Value</p>
+                </section> <!--forecastCardInfo-->
+            </section> <!--forecastCard-->            
+
+            <section class="forecastCard">
+                <section class="forecastCardImg">
+                    <p class="forecastDate">Date</p>
+                    <img class="forecastImage" src="img/0.png" alt="wheater icon" width="100" height="100">
+                </section><!--forecastCardImg-->
+                <section class="forecastCardInfo">
+                        <p class="forecastMinTemp">Min:</p>
+                        <p class="forecastMinTempVal">Temp Value</p>
+                        <p class="forecastMaxTemp">Max:</p>
+                        <p class="forecastMaxTempVal">Temp Value</p>
+                </section> <!--forecastCardInfo-->
+            </section> <!--forecastCard-->
+
+            </section> <!--forecast-->
+        </section> <!--forecast section-->
     </main>
     <footer>
         
